@@ -1,0 +1,71 @@
+{
+  "dailyPlans": {
+    "2026-04-16": {
+      "textPlan": "Morning: Electrostatics Revision\nAfternoon: Maths Conic Sections\nEvening: Organic Chemistry Mixed Bag Problems",
+      "tablePlan": [
+        {
+          "id": "1",
+          "time": "08:00",
+          "subject": "Physics",
+          "topic": "Gauss Law & Electric Field",
+          "status": "Done"
+        },
+        {
+          "id": "2",
+          "time": "11:00",
+          "subject": "Maths",
+          "topic": "Parabola & Hyperbola PYQs",
+          "status": "Pending"
+        }
+      ]
+    }
+  },
+  "mistakes": [
+    {
+      "id": "m1",
+      "subject": "Physics",
+      "topic": "Rotational Dynamics",
+      "description": "Forgot to add translational kinetic energy in rolling without slipping case.",
+      "correctConcept": "Total Kinetic Energy = K_rot + K_trans = 1/2 Iω² + 1/2 mv²",
+      "tags": ["Conceptual"],
+      "createdAt": "2026-04-10T10:00:00Z"
+    },
+    {
+      "id": "m2",
+      "subject": "Chemistry",
+      "topic": "Organic Synthesis",
+      "description": "Incorrect major product in Hoffmann Bromamide reaction with substituted amides.",
+      "correctConcept": "Check the migration capacity of different R groups.",
+      "tags": ["Conceptual"],
+      "createdAt": "2026-04-12T15:30:00Z"
+    }
+  ],
+  "revisionTopics": [
+    {
+      "id": "r1",
+      "subject": "Maths",
+      "topic": "Definite Integration",
+      "revisionCount": 4,
+      "priority": "High",
+      "lastRevisedAt": "2026-04-14T12:00:00Z"
+    },
+    {
+      "id": "r2",
+      "subject": "Maths",
+      "topic": "Coordinate Geometry",
+      "revisionCount": 1,
+      "priority": "High",
+      "lastRevisedAt": "2026-04-05T12:00:00Z"
+    }
+  ],
+  "flowNodes": [],
+  "flowEdges": [],
+  "studyHours": {
+    "2026-04-10": 8,
+    "2026-04-11": 7,
+    "2026-04-12": 10,
+    "2026-04-13": 6,
+    "2026-04-14": 9,
+    "2026-04-15": 8
+  }
+}
